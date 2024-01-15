@@ -30,11 +30,6 @@ After conducting 1-1),1-2),1-3), then conduct 1-4),1-5),1-6) with 1-1),1-2),1-3)
 After conducting 2-1),2-2),2-3), then conduct 2-4),2-5),2-6) with 2-1),2-2),2-3) results
 
 ## 3. mobility (Section 5.2)
-## 3-0 data
- - ad_mat_korea_246site.RData: adjacency matrix of locations
- - age_korea_mob_246site.RData: functional covariates (age curve)
- - weekly_mob_inout_korea_246site.RData: functional response (mobility)
- - coord_korea_246site.RData: coordinate of locations
 ## 3-1 mobility_SFoFR.R: conduct a SFoFR with mobility data
 ## 3-2 mobility_PSFoFR.R: conduct a PSFoFR with mobility data
 ## 3-3 Estimated Regression function_Mobility.R: draw estimated regression functions (psi) and 95% significant area
