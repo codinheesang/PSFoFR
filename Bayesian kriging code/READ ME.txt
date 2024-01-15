@@ -1,0 +1,45 @@
+READ ME
+
+Bayesian Kriging Approaches for Spatial Functional Data
+
+
+1. Simulation (Section 4)
+ 1) simulation_SFoFR.R: conduct a SFoFR with simulation data
+ 2) simulation_PSFoFR.R: conduct a PSFoFR with simulation data
+ 3) Fdagstat_Simul.R: conduct a fdagstat package with simulation data
+ 4) Estimated Regression function_Simul.R: draw estimated regression functions (psi) and 95% significant area
+ 5) Draw Kriging_Simul.R: draw kriging results (SFoFR, PSFoFR, and fdagstat)
+ 6) Draw Uncertainty_Simul.R: draw an uncertainty map with test sets 
+
+After conducting 1),2),3), then conduct 4),5),6) with 1),2),3) results
+
+
+2. PM2.5 (Section 5.1)
+ 0) data
+  - japan_coord_dat_align.RData: coordinate of locations
+  - japan_no2_dat_align.RData: functional covariates (NOx)
+  - japan_pm25_dat_align.RData: functional response (PM2.5)
+  - japan_train_index.RData: train index
+ 1) PM2.5_SFoFR.R: conduct a SFoFR with PM2.5 data
+ 2) PM2.5_PSFoFR_rank5per.R: conduct a PSFoFR with PM2.5 data
+ 3) Fdagstat_Japan.R: conduct a fdagstat package with PM2.5 data
+ 4) Estimated Regression function_Japan.R: draw estimated regression functions (psi) and 95% significant area
+ 5) Draw Kriging_Japan.R: draw kriging results (SFoFR, PSFoFR, and fdagstat)
+ 6) Draw Uncertainty_Japan.R: draw an uncertainty map with test sets 
+
+After conducting 1),2),3), then conduct 4),5),6) with 1),2),3) results
+
+3. mobility (Section 5.2)
+ 0) data
+  - ad_mat_korea_246site.RData: adjacency matrix of locations
+  - age_korea_mob_246site.RData: functional covariates (age curve)
+  - weekly_mob_inout_korea_246site.RData: functional response (mobility)
+  - coord_korea_246site.RData: coordinate of locations
+ 1) mobility_SFoFR.R: conduct a SFoFR with mobility data
+ 2) mobility_PSFoFR.R: conduct a PSFoFR with mobility data
+ 3) Estimated Regression function_Mobility.R: draw estimated regression functions (psi) and 95% significant area
+
+After conducting 1),2) then conduct 3) with 1),2) results
+
+
+
